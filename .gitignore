@@ -1,0 +1,17 @@
+# Node modules in skills
+node_modules/
+
+# Lock files (auto-generated)
+# .skill-lock.json
+
+# Environment/secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
