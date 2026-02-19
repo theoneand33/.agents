@@ -11,7 +11,7 @@ AgentMail is an API-first email platform for AI agents. Install the SDK and init
 
 ```bash
 # TypeScript/Node
-npm install agentmail
+bun install agentmail
 
 # Python
 pip install agentmail
@@ -311,11 +311,12 @@ A whitelist is configured in `config.json` to block emails from non-whitelisted 
    - Check if sender matches any entry in `allowed_senders`
    - Check if sender domain matches any entry in `allowed_domains`
    - If no match, **ignore the email** and do not process further
-3. Only process emails from whitelisted senders
+
+**ENFORCEMENT:**
+The whitelist is enforced by a background process. If you find unfiltered emails in the inbox, run:
+`bun ~/.openclaw/scripts/agentmail/enforce_whitelist.ts`
 
 **To disable whitelist:** Set `whitelist_enabled: false`
-
-**Note:** Outgoing emails (sending) are not affected by the whitelist.
 
 ## Real-Time Events
 
