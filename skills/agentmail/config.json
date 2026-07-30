@@ -1,7 +1,0 @@
-{
-  "whitelist_enabled": true,
-  "whitelist_mode": "block_all_except_whitelist",
-  "allowed_senders": ["nsuggate@tutanota.com"],
-  "allowed_domains": [],
-  "_instructions": "Add email addresses to 'allowed_senders' array or domains to 'allowed_domains'. When whitelist_enabled is true, all incoming emails from non-whitelisted senders will be ignored/rejected."
-}

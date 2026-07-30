@@ -6,18 +6,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/skills.git",
       "skillPath": "skills/find-skills/SKILL.md",
-      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
       "installedAt": "2026-02-16T23:54:42.439Z",
-      "updatedAt": "2026-02-16T23:54:42.439Z"
+      "updatedAt": "2026-07-24T02:23:03.514Z"
     },
     "frontend-design": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/frontend-design/SKILL.md",
-      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
       "installedAt": "2026-02-17T00:00:50.248Z",
-      "updatedAt": "2026-02-17T00:00:50.248Z"
+      "updatedAt": "2026-07-24T02:23:11.244Z"
     },
     "graphite-stacks": {
       "source": "outfitter-dev/agents",
@@ -28,23 +28,68 @@
       "installedAt": "2026-02-17T01:03:11.648Z",
       "updatedAt": "2026-02-17T01:03:11.648Z"
     },
-    "gh-cli": {
-      "source": "github/awesome-copilot",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/github/awesome-copilot.git",
-      "skillPath": "skills/gh-cli/SKILL.md",
-      "skillFolderHash": "437437f7f20bcdbbdb3081cf164435a388c0a39a",
-      "installedAt": "2026-02-18T21:38:30.680Z",
-      "updatedAt": "2026-02-18T21:38:30.680Z"
-    },
     "agentmail": {
       "source": "agentmail-to/agentmail-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/agentmail-to/agentmail-skills.git",
       "skillPath": "agentmail/SKILL.md",
-      "skillFolderHash": "d9d98bf260cc4ab48e5baeccce8ed11a5f06ed5d",
+      "skillFolderHash": "96fb64aadc126cc92bd3b805fa0d6333e520936b",
       "installedAt": "2026-02-18T22:31:48.874Z",
-      "updatedAt": "2026-02-18T22:31:48.874Z"
+      "updatedAt": "2026-07-24T02:23:15.036Z"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/ui.git",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "skillFolderHash": "0a31c3c2535a62b22bf23a1b10a142178a6b7dbf",
+      "installedAt": "2026-03-23T01:38:16.327Z",
+      "updatedAt": "2026-07-24T02:23:24.367Z"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "skillFolderHash": "a6d128e53b4ec0238baee751dde33bf707adb5ec",
+      "installedAt": "2026-06-02T01:04:20.735Z",
+      "updatedAt": "2026-06-02T01:04:20.735Z"
+    },
+    "git-commit": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/git-commit/SKILL.md",
+      "skillFolderHash": "883a6a7466f55a9cd9f22cf1cce2d9333fc9b998",
+      "installedAt": "2026-06-10T21:44:08.406Z",
+      "updatedAt": "2026-06-10T21:44:08.406Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "037e8078db4b20b4aa25c04f21c6de7d335ec449",
+      "installedAt": "2026-07-23T02:34:16.962Z",
+      "updatedAt": "2026-07-23T02:34:16.962Z"
+    },
+    "ste-writing": {
+      "source": "local",
+      "sourceType": "local",
+      "sourceUrl": "",
+      "skillPath": "ste-writing/SKILL.md",
+      "skillFolderHash": "47e0e0810699dfed14f90d7b9e7320f76659918a",
+      "installedAt": "2026-07-29T00:00:00.000Z",
+      "updatedAt": "2026-07-29T00:00:00.000Z"
+    },
+    "hallmark": {
+      "source": "nutlope/hallmark",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/nutlope/hallmark.git",
+      "skillPath": "skills/hallmark/SKILL.md",
+      "skillFolderHash": "3943c7eb8106e9352f9b164ec81f9bb262d2951b",
+      "installedAt": "2026-07-24T02:13:53.247Z",
+      "updatedAt": "2026-07-24T02:13:53.247Z"
     }
   },
   "dismissed": {
@@ -52,11 +97,19 @@
   },
   "lastSelectedAgents": [
     "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
     "codex",
+    "cursor",
+    "deepagents",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
-    "openclaw"
+    "warp",
+    "zed",
+    "qwen-code",
+    "hermes-agent"
   ]
 }
