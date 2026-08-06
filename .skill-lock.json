@@ -90,6 +90,15 @@
       "skillFolderHash": "3943c7eb8106e9352f9b164ec81f9bb262d2951b",
       "installedAt": "2026-07-24T02:13:53.247Z",
       "updatedAt": "2026-07-24T02:13:53.247Z"
+    },
+    "performance-optimization": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/performance-optimization/SKILL.md",
+      "skillFolderHash": "3ab3ecc4c0c0ee1db1b1f56ea5d5a51526b4f74c",
+      "installedAt": "2026-08-06T21:48:45.300Z",
+      "updatedAt": "2026-08-06T21:48:45.300Z"
     }
   },
   "dismissed": {
